@@ -14,11 +14,7 @@ An example is given below,
 {
     "query":"Question you want to insert",
     "topic":"Related Topics",
-    "tags" : [
-        
-            "Array of tags you want to add"
-    ]
-
+    "tags" : ["Array of tags you want to add"]
 }
 You can select between following topics and tags
 Topics :
