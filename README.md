@@ -15,37 +15,38 @@ An example is given below,
     "query":"Question you want to insert",
     "topic":"Related Topics",
     "tags" : ["Array of tags you want to add"]
-}
+}.
 You can select between following topics and tags
 Topics :
 
-top-colleges
-qualifying-criteria
-education
-sports
-general-knowledge
-news
+top-colleges,
+qualifying-criteria,
+education,
+sports,
+general-knowledge,
+news.
 
 Tags : 
 
-stanford-university
-usa
-admission
-engineering
-top
-India
-medical
-higher-education
-sports
-cricket
-football
+stanford-university,
+usa,
+admission,
+engineering,
+top,
+India,
+medical,
+higher-education,
+sports,
+cricket,
+football.
 
 3.https://admitkard-v1.herokuapp.com/questions/search :-
 This is the post request for searching a string in the question bank. You will get related questions according to your search you can either search tags or any keyword in the question. Result will be an array which will contain all the related questions according to your search.
+This link can be run in postman.
 
 This request takes input body in json format. You are required to give a pattern in the body in below format
 {
-  "pattern" : "Pattern you want to search".
+  "pattern" : "Pattern you want to search"
 }
 
 All the validations for inserting and searching questions are done.
