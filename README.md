@@ -1,12 +1,12 @@
 # AdmitKard-backend
 This service provides three endpoints 
 
-1.https://admitkard-v1.herokuapp.com/questions/get
+1.https://admitkard-v1.herokuapp.com/questions/get :- 
 This is a GET request which gives you all the questions in the question bank.
 Given above is the herokuapp link which can be run in postman to see all the questions stored in question bank.
 
 
-2.https://admitkard-v1.herokuapp.com/questions/insert
+2.https://admitkard-v1.herokuapp.com/questions/insert :-
 This is the post request for adding the questions in the question bank.
 Given above is the herokuapp link which can be run in postman to insert questions in the question bank.
 This request takes body as input from the user in the json format.
@@ -44,7 +44,7 @@ sports
 cricket
 football
 
-3.https://admitkard-v1.herokuapp.com/questions/search
+3.https://admitkard-v1.herokuapp.com/questions/search :-
 This is the post request for searching a string in the question bank. You will get related questions according to your search you can either search tags or any keyword in the question. Result will be an array which will contain all the related questions according to your search.
 
 This request takes input body in json format. You are required to give a pattern in the body in below format
