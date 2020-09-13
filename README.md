@@ -1,4 +1,9 @@
 # AdmitKard-backend
+Video link :-
+https://drive.google.com/file/d/1Z1p9vhLd28SzxtXICO3O49sXTYMW-DF7/view?usp=sharing
+
+About service.
+
 This service provides three endpoints 
 
 1.https://admitkard-v1.herokuapp.com/questions/get :- 
